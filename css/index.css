@@ -66,6 +66,40 @@ p {
     line-height: 1.4;
 }
 
+                                        /*My code starts here*/
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+                                            /*Nav menu*/
+
+.top-nav1{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-left: 23%;
+    padding-right: 24%;
+    align-items: baseline;
+    padding-bottom: 4%;
+    padding-top: 3%;
+}
+.lambda-logo{
+    width: 25%;
+
+}
+.nav-links{
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+                                            /*Header*/
+.head-pic{
+    padding-left: 23%;
+    padding-bottom: 5%;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -84,6 +118,7 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+                                    /*Middle content*/
 
 .middle-content {
     margin-bottom: 20px;
@@ -104,12 +139,35 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+   /* background: black;*/
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+                            /*Box Background Color*/
+}
+.box1 {
+    background-color:teal;
+}
+.box2{
+    background-color:gold ;
+}.box3{
+    background-color:cadetblue ;
+}.box4{
+    background-color:coral ;
+}.box5{
+    background-color:crimson ;
+}.box6{
+    background-color:forestgreen ;
+}.box7{
+    background-color:darkorchid ;
+}.box8{
+    background-color:hotpink ;
+}.box9{
+    background-color:indigo ;
+}.box10{
+    background-color:dodgerblue ;
 }
 
 .bottom-content {
@@ -141,6 +199,129 @@ footer nav {
 }
 
 footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+                    /*About page*/
+
+
+
+body{
+margin-left: 10%;
+margin-right: 10%;
+}
+
+.top-nav2{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-left: 17%;
+    padding-right: 20%;
+    align-items: baseline;
+    padding-bottom: 4%;
+    padding-top: 3%;
+}
+
+.about-page{
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 8%;
+}
+.aboutp{
+    width: 100%;
+}
+.main-about{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    padding-bottom: 5%;
+    padding-left: 10%;
+}
+
+.strategy{
+    margin-right: 2%;
+}
+
+.places-we-work{
+    margin-right: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+.mbox{
+    width: 45%;
+    padding-top: 2%;
+    border-bottom: solid;
+    border-style: dotted;
+    padding-bottom: 2%;
+    
+}
+
+.mbox h2{
+    padding-top: 2%;
+}
+.mbox p{
+    width: 50%;
+    padding-bottom: 2%;
+    
+}
+.learn{
+    background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 1%;
+  border-radius: 15%;
+  
+}
+.mimg{
+    width: 90%;
+    
+}
+
+
+
+
+
+                    /*Bottom section*/
+
+
+.together-bottom{
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+
+                        /*Footer*/
+
+
+.footer2{
+    width: 85%;
+    background: black;
+    margin-left: 10%;
+    
+    
+
+}
+.footer2 nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+.footer2 nav a {
     color: white;
     text-decoration: none;
 }
